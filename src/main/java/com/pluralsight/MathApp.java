@@ -34,6 +34,9 @@ public class MathApp {
         double negativeNum = -3.8;
         double absoluteValue = Math.abs(negativeNum);
         System.out.println("The absolute value of " + negativeNum + " is " + absoluteValue);
+        // Question 7
+        double randNum = Math.random();
+        System.out.println("A random number between 0 and 1 is " + randNum);
 
 
 
