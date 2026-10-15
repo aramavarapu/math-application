@@ -30,6 +30,10 @@ public class MathApp {
         double x1 = 85, y1 = 50;
         double distance = Math.sqrt(Math.pow(x1 - x0, 2) + Math.pow(y1 - y0, 2));
         System.out.println("The distance between (5, 10) and (85, 50) is " + distance);
+        // Question 6
+        double negativeNum = -3.8;
+        double absoluteValue = Math.abs(negativeNum);
+        System.out.println("The absolute value of " + negativeNum + " is " + absoluteValue);
 
 
 
