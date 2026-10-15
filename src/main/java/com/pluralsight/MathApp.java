@@ -37,6 +37,12 @@ public class MathApp {
         // Question 7
         double randNum = Math.random();
         System.out.println("A random number between 0 and 1 is " + randNum);
+        // Question 8
+        int days = 24;
+        int hours = 24;
+        int minutes = 60;
+        int minutesInTime = days * hours * minutes;
+        System.out.println("There are " + minutesInTime + " minutes in " + days + " days");
 
 
 
