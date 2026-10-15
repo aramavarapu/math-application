@@ -21,6 +21,10 @@ public class MathApp {
         double radius = 7.25;
         double circleArea = Math.PI * Math.pow(radius, 2);
         System.out.println("A circle that has a radius of " + radius + " has the area of " + circleArea);
+        // Question 4
+        double number = 5.0;
+        double root = Math.sqrt(number);
+        System.out.println("A variable that is set to " + number + " has the square root of " + root);
 
 
 
