@@ -25,6 +25,12 @@ public class MathApp {
         double number = 5.0;
         double root = Math.sqrt(number);
         System.out.println("A variable that is set to " + number + " has the square root of " + root);
+        // Question 5
+        double x0 = 5, y0 = 10;
+        double x1 = 85, y1 = 50;
+        double distance = Math.sqrt(Math.pow(x1 - x0, 2) + Math.pow(y1 - y0, 2));
+        System.out.println("The distance between (5, 10) and (85, 50) is " + distance);
+
 
 
 
