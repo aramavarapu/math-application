@@ -43,6 +43,10 @@ public class MathApp {
         int minutes = 60;
         int minutesInTime = days * hours * minutes;
         System.out.println("There are " + minutesInTime + " minutes in " + days + " days");
+        // Bonus
+        long millisec = 60 * 1000;
+        long millisecInTime = minutesInTime * millisec;
+        System.out.println("There are " + millisecInTime + " milliseconds in " + days + " days");
 
 
 
